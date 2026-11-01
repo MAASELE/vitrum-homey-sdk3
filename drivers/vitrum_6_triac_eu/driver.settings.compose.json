@@ -1,0 +1,1280 @@
+[
+  {
+    "id": "btn_1_type",
+    "type": "dropdown",
+    "value": "0",
+    "label": { "en": "Button 1 function" },
+    "zwave": {
+      "index": 1,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Button Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Dimmer (CC Switch Multilevel)" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Switch Button (CC Basic)" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Push Button (CC Basic)" }
+      },     
+      {
+        "id": "5",
+        "label": { "en": "Curtain (motor control with 2 buttons)" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "Scene Push Button (ON only)" }
+      },      
+      {
+        "id": "8",
+        "label": { "en": "Scene Toggle Switch" }
+      },
+      {
+        "id": "9",
+        "label": { "en": "Scene Toggle Push Button" }
+      },
+      {
+        "id": "26",
+        "label": { "en": "Central Scene" }
+      },
+      {
+        "id": "27",
+        "label": { "en": "Curtain Full Control (with 1 button)" }
+      }
+    ]
+  },
+  {
+    "id": "btn_2_type",
+    "type": "dropdown",
+    "value": "0",
+    "label": { "en": "Button 2 function" },
+    "zwave": {
+      "index": 2,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Button Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Dimmer (CC Switch Multilevel)" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Switch Button (CC Basic)" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Push Button (CC Basic)" }
+      },     
+      {
+        "id": "5",
+        "label": { "en": "Curtain (motor control with 2 buttons)" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "Scene Push Button (ON only)" }
+      },      
+      {
+        "id": "8",
+        "label": { "en": "Scene Toggle Switch" }
+      },
+      {
+        "id": "9",
+        "label": { "en": "Scene Toggle Push Button" }
+      },
+      {
+        "id": "26",
+        "label": { "en": "Central Scene" }
+      },
+      {
+        "id": "27",
+        "label": { "en": "Curtain Full Control (with 1 button)" }
+      }
+    ]
+  },
+  {
+    "id": "btn_3_type",
+    "type": "dropdown",
+    "value": "0",
+    "label": { "en": "Button 3 function" },
+    "zwave": {
+      "index": 3,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Button Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Dimmer (CC Switch Multilevel)" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Switch Button (CC Basic)" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Push Button (CC Basic)" }
+      },     
+      {
+        "id": "5",
+        "label": { "en": "Curtain (motor control with 2 buttons)" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "Scene Push Button (ON only)" }
+      },      
+      {
+        "id": "8",
+        "label": { "en": "Scene Toggle Switch" }
+      },
+      {
+        "id": "9",
+        "label": { "en": "Scene Toggle Push Button" }
+      },
+      {
+        "id": "26",
+        "label": { "en": "Central Scene" }
+      },
+      {
+        "id": "27",
+        "label": { "en": "Curtain Full Control (with 1 button)" }
+      }
+    ]
+  },
+  {
+    "id": "btn_4_type",
+    "type": "dropdown",
+    "value": "0",
+    "label": { "en": "Button 4 function" },
+    "zwave": {
+      "index": 4,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Button Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Dimmer (CC Switch Multilevel)" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Switch Button (CC Basic)" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Push Button (CC Basic)" }
+      },     
+      {
+        "id": "5",
+        "label": { "en": "Curtain (motor control with 2 buttons)" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "Scene Push Button (ON only)" }
+      },      
+      {
+        "id": "8",
+        "label": { "en": "Scene Toggle Switch" }
+      },
+      {
+        "id": "9",
+        "label": { "en": "Scene Toggle Push Button" }
+      },
+      {
+        "id": "26",
+        "label": { "en": "Central Scene" }
+      },
+      {
+        "id": "27",
+        "label": { "en": "Curtain Full Control (with 1 button)" }
+      }
+    ]
+  },
+  {
+    "id": "btn_5_type",
+    "type": "dropdown",
+    "value": "0",
+    "label": { "en": "Button 5 function" },
+    "zwave": {
+      "index": 5,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Button Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Dimmer (CC Switch Multilevel)" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Switch Button (CC Basic)" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Push Button (CC Basic)" }
+      },     
+      {
+        "id": "5",
+        "label": { "en": "Curtain (motor control with 2 buttons)" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "Scene Push Button (ON only)" }
+      },      
+      {
+        "id": "8",
+        "label": { "en": "Scene Toggle Switch" }
+      },
+      {
+        "id": "9",
+        "label": { "en": "Scene Toggle Push Button" }
+      },
+      {
+        "id": "26",
+        "label": { "en": "Central Scene" }
+      },
+      {
+        "id": "27",
+        "label": { "en": "Curtain Full Control (with 1 button)" }
+      }
+    ]
+  },
+  {
+    "id": "btn_6_type",
+    "type": "dropdown",
+    "value": "0",
+    "label": { "en": "Button 6 function" },
+    "zwave": {
+      "index": 6,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Button Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Dimmer (CC Switch Multilevel)" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Switch Button (CC Basic)" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Push Button (CC Basic)" }
+      },     
+      {
+        "id": "5",
+        "label": { "en": "Curtain (motor control with 2 buttons)" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "Scene Push Button (ON only)" }
+      },      
+      {
+        "id": "8",
+        "label": { "en": "Scene Toggle Switch" }
+      },
+      {
+        "id": "9",
+        "label": { "en": "Scene Toggle Push Button" }
+      },
+      {
+        "id": "26",
+        "label": { "en": "Central Scene" }
+      },
+      {
+        "id": "27",
+        "label": { "en": "Curtain Full Control (with 1 button)" }
+      }
+    ]
+  },
+  {
+    "id": "off_btn_1_color",
+    "type": "dropdown",
+    "value": "3",
+    "label": { "en": "Off Button 1 Color" },
+    "zwave": {
+      "index": 7,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "off_btn_2_color",
+    "type": "dropdown",
+    "label": { "en": "Off Button 2 Color" },
+    "value": "3",
+    "zwave": {
+      "index": 8,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "off_btn_3_color",
+    "type": "dropdown",
+    "label": { "en": "Off Button 3 Color" },
+    "value": "3",
+    "zwave": {
+      "index": 9,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "off_btn_4_color",
+    "type": "dropdown",
+    "label": { "en": "Off Button 4 Color" },
+    "value": "3",
+    "zwave": {
+      "index": 10,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "off_btn_5_color",
+    "type": "dropdown",
+    "label": { "en": "Off Button 5 Color" },
+    "value": "3",
+    "zwave": {
+      "index": 11,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "off_btn_6_color",
+    "type": "dropdown",
+    "label": { "en": "Off Button 6 Color" },
+    "value": "3",
+    "zwave": {
+      "index": 12,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "on_btn_1_color",
+    "type": "dropdown",
+    "label": { "en": "On Button 1 Color" },
+    "value": "4",
+    "zwave": {
+      "index": 13,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "on_btn_2_color",
+    "type": "dropdown",
+    "label": { "en": "On Button 2 Color" },
+    "value": "4",
+    "zwave": {
+      "index": 14,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "on_btn_3_color",
+    "type": "dropdown",
+    "label": { "en": "On Button 3 Color" },
+    "value": "4",
+    "zwave": {
+      "index": 15,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "on_btn_4_color",
+    "type": "dropdown",
+    "label": { "en": "On Button 4 Color" },
+    "value": "4",
+    "zwave": {
+      "index": 16,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "on_btn_5_color",
+    "type": "dropdown",
+    "label": { "en": "On Button 5 Color" },
+    "value": "4",
+    "zwave": {
+      "index": 17,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "on_btn_6_color",
+    "type": "dropdown",
+    "label": { "en": "On Button 6 Color" },
+    "value": "4",
+    "zwave": {
+      "index": 18,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "eco_btn_1_color",
+    "type": "dropdown",
+    "label": { "en": "Eco Button 1 Color" },
+    "value": "2",
+    "zwave": {
+      "index": 19,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "eco_btn_2_color",
+    "type": "dropdown",
+    "label": { "en": "Eco Button 2 Color" },
+    "value": "2",
+    "zwave": {
+      "index": 20,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "eco_btn_3_color",
+    "type": "dropdown",
+    "label": { "en": "Eco Button 3 Color" },
+    "value": "2",
+    "zwave": {
+      "index": 21,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "eco_btn_4_color",
+    "type": "dropdown",
+    "label": { "en": "Eco Button 4 Color" },
+    "value": "2",
+    "zwave": {
+      "index": 22,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "eco_btn_5_color",
+    "type": "dropdown",
+    "label": { "en": "On Button 5 Color" },
+    "value": "2",
+    "zwave": {
+      "index": 23,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "eco_btn_6_color",
+    "type": "dropdown",
+    "label": { "en": "Eco Button 6 Color" },
+    "value": "2",
+    "zwave": {
+      "index": 24,
+      "size": 1
+    },
+    "values": [
+      {
+        "id": "0",
+        "label": { "en": "Off" }
+      },
+      {
+        "id": "1",
+        "label": { "en": "Red" }
+      },
+      {
+        "id": "2",
+        "label": { "en": "Green" }
+      },      
+      {
+        "id": "3",
+        "label": { "en": "Blue" }
+      },     
+      {
+        "id": "4",
+        "label": { "en": "Yellow" }
+      },
+      {
+        "id": "5",
+        "label": { "en": "Magenta" }
+      },      
+      {
+        "id": "6",
+        "label": { "en": "Cyan" }
+      },
+      {
+        "id": "7",
+        "label": { "en": "White" }
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "value": 1,
+    "label": {
+      "en": "Output port connected to Button N.1"
+    },
+    "hint": {
+      "en": "Output port connected to Button N.1.\r\nRemark: connecting a button to an output port already connected to another different button, will force the previously connected button to be automatically disconnected"
+    },
+    "zwave": {
+      "index": 25,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 6
+    },
+    "type": "number"
+  },
+  {
+    "id": "26",
+    "value": 2,
+    "label": {
+      "en": "Output port connected to Button N.2"
+    },
+    "hint": {
+      "en": "Output port connected to Button N.2.\r\nRemark: connecting a button to an output\r\nport already connected to another different\r\nbutton, will force the previously connected\r\nbutton to be automatically disconnected"
+    },
+    "zwave": {
+      "index": 26,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 6
+    },
+    "type": "number"
+  },
+  {
+    "id": "27",
+    "value": 3,
+    "label": {
+      "en": "Output port connected to Button N.3"
+    },
+    "hint": {
+      "en": "Output port connected to Button N.3.\r\nRemark: connecting a button to an output\r\nport already connected to another different\r\nbutton, will force the previously connected\r\nbutton to be automatically disconnected"
+    },
+    "zwave": {
+      "index": 27,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 6
+    },
+    "type": "number"
+  },
+  {
+    "id": "28",
+    "value": 4,
+    "label": {
+      "en": "Output port connected to Button N.4"
+    },
+    "hint": {
+      "en": "Output port connected to Button N.4.\r\nRemark: connecting a button to an output\r\nport already connected to another different\r\nbutton, will force the previously connected\r\nbutton to be automatically disconnected"
+    },
+    "zwave": {
+      "index": 28,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 6
+    },
+    "type": "number"
+  },
+  {
+    "id": "29",
+    "value": 5,
+    "label": {
+      "en": "Output port connected to Button N.5"
+    },
+    "hint": {
+      "en": "Output port connected to Button N.5.\r\nRemark: connecting a button to an output\r\nport already connected to another different\r\nbutton, will force the previously connected\r\nbutton to be automatically disconnected"
+    },
+    "zwave": {
+      "index": 29,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 6
+    },
+    "type": "number"
+  },
+  {
+    "id": "30",
+    "value": 6,
+    "label": {
+      "en": "Output port connected to Button N.6"
+    },
+    "hint": {
+      "en": "Output port connected to Button N.6.\r\nRemark: connecting a button to an output\r\nport already connected to another different\r\nbutton, will force the previously connected\r\nbutton to be automatically disconnected"
+    },
+    "zwave": {
+      "index": 30,
+      "size": 1
+    },
+    "attr": {
+      "min": 0,
+      "max": 6
+    },
+    "type": "number"
+  },
+  {
+    "id": "maxbrightness",
+    "type": "number",
+    "label": { "en": "Buttons Max. Brightness" },
+    "hint": {
+      "en": "This parameter ({{zwaveParameterIndex}}) configures maximum brightness when button is on"
+    },
+    "value": 100,
+    "zwave": {
+      "index": 206,
+      "size": 1
+    },
+    "attr": { "min": 5,"max": 100 },
+    "units": { "en": "value" }
+  },
+  {
+    "id": "minbrightness",
+    "type": "number",
+    "label": { "en": "Buttons Min. Brightness" },
+    "hint": {
+      "en": "This parameter ({{zwaveParameterIndex}}) configures minimum brightness when button is off"
+    },
+    "value": 5,
+    "zwave": {
+      "index": 207,
+      "size": 1
+    },
+    "attr": { "min": 0,"max": 100 },
+    "units": { "en": "value" }
+  },
+  {
+    "id": "buzzer",
+    "type": "checkbox",
+    "label": {
+      "en": "Buzzer"
+    },
+    "hint": {
+      "en": "This parameter ({{zwaveParameterIndex}}) configures if buzzer sound should be enabled for button press"
+    },
+    "zwave": {
+      "index": 209,
+      "size": 1
+    },
+    "value": true
+  },
+  {
+    "id": "frontendlock",
+    "type": "checkbox",
+    "label": {
+      "en": "Front-end Buttons lock"
+    },
+    "hint": {
+      "en": "This parameter ({{zwaveParameterIndex}}) configures if Front-end Buttons lock should be enabled for button press"
+    },
+    "zwave": {
+      "index": 218,
+      "size": 1
+    },
+    "value": false
+  }
+]

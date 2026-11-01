@@ -1,0 +1,21 @@
+{
+  "name": "com.vitrum.v3",
+  "version": "4.0.6",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
+    "validate": "homey app validate",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.6",
+    "@types/homey": "npm:homey-apps-sdk-v3-types@^1.8.3",
+    "@types/node": "^22.20.5",
+    "eslint": "^7.32.0",
+    "eslint-config-athom": "^3.1.1",
+    "homey": "^4.6.2"
+  },
+  "dependencies": {
+    "homey-zwavedriver": "^2.2.6"
+  }
+}

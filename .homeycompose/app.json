@@ -1,0 +1,166 @@
+{
+  "id": "com.vitrum.v3",
+  "version": "4.0.6",
+  "brandColor": "#FF0000",
+  "compatibility": ">=12.9.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Vitrum v3"
+  },
+  "description": {
+    "en": "Vitrum Design revolution the idea of Smart Home"
+  },
+  "category": [
+    "lights"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.jpg",
+    "large": "/assets/images/large.jpg"
+  },
+  "author": {
+    "name": "Oreste Dimaggio",
+    "email": "oreste@dimaggio.it"
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "OresteDimaggio"
+      }
+    }
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Alexandre Nakad",
+        "email": "aleconakad@gmail.com"
+      }
+    ]
+  },
+  "source": "https://github.com/MAASELE/vitrum-homey-sdk3",
+  "homeyCommunityTopicId": 85296,
+  "support": "https://github.com/MAASELE/vitrum-homey-sdk3/issues",
+  "flow": {
+    "triggers": [
+      {
+        "id": "vitrum6_triac_multilevel",
+        "title": {
+          "en": "Normal operation - button in switch multilevel mode"
+        },
+        "titleFormatted": {
+          "en": "Button [[value]]"
+        },
+        "hint": {
+          "en": "This flow card will only trigger if the button setting is in \"Switch Multilevel Mode\", triggers on all buttons that are in this mode"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=vitrum_6_onoff-triac_eu"
+          },
+          {
+            "name": "value",
+            "type": "dropdown",
+            "title": {
+              "en": "Turned .../Started dimming ..."
+            },
+            "values": [
+              {
+                "id": "on",
+                "label": {
+                  "en": "Turned on"
+                }
+              },
+              {
+                "id": "off",
+                "label": {
+                  "en": "Turned off"
+                }
+              },
+              {
+                "id": "up",
+                "label": {
+                  "en": "Started dimming up"
+                }
+              },
+              {
+                "id": "down",
+                "label": {
+                  "en": "Started dimming down"
+                }
+              },
+              {
+                "id": "stop",
+                "label": {
+                  "en": "Stopped dimming"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vitrum4_triac_multilevel",
+        "title": {
+          "en": "Normal operation - button in switch multilevel mode"
+        },
+        "titleFormatted": {
+          "en": "Button [[value]]"
+        },
+        "hint": {
+          "en": "This flow card will only trigger if the button setting is in \"Switch Multilevel Mode\", triggers on all buttons that are in this mode"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=vitrum_6_onoff-triac_eu"
+          },
+          {
+            "name": "value",
+            "type": "dropdown",
+            "title": {
+              "en": "Turned .../Started dimming ..."
+            },
+            "values": [
+              {
+                "id": "on",
+                "label": {
+                  "en": "Turned on"
+                }
+              },
+              {
+                "id": "off",
+                "label": {
+                  "en": "Turned off"
+                }
+              },
+              {
+                "id": "up",
+                "label": {
+                  "en": "Started dimming up"
+                }
+              },
+              {
+                "id": "down",
+                "label": {
+                  "en": "Started dimming down"
+                }
+              },
+              {
+                "id": "stop",
+                "label": {
+                  "en": "Stopped dimming"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

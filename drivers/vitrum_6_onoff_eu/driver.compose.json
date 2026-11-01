@@ -1,0 +1,223 @@
+{
+  "name": {
+    "en": "Vitrum 6 On/Off EU"
+  },
+  "class": "light",
+  "capabilities": [],
+  "capabilitiesOptions": {
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "zwave": {
+    "manufacturerId": 266,
+    "productTypeId": [
+      5120,
+      28949,
+      28678,
+      28950
+    ],
+    "productId": [
+      4118,
+      3847,
+      4119,
+      26112
+    ],
+    "learnmode": {
+      "instruction": {
+        "en": "Press top button to include. Hold the left button for 8 seconds to exclude"
+      }
+    },
+    "zwaveAllianceProductId": 3918,
+    "associationGroups": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "defaultConfiguration": [
+      {
+        "id": 7,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 8,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 9,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 10,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 11,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 12,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 13,
+        "size": 1,
+        "value": 4
+      },
+      {
+        "id": 14,
+        "size": 1,
+        "value": 4
+      },
+      {
+        "id": 15,
+        "size": 1,
+        "value": 4
+      },
+      {
+        "id": 16,
+        "size": 1,
+        "value": 4
+      },
+      {
+        "id": 17,
+        "size": 1,
+        "value": 4
+      },
+      {
+        "id": 18,
+        "size": 1,
+        "value": 4
+      }
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "Reserved"
+        }
+      },
+      "3": {
+        "hint": {
+          "en": "Switch 1: Associations nodeid(s)"
+        }
+      },
+      "4": {
+        "hint": {
+          "en": "Switch 2: Associations nodeid(s)"
+        }
+      },
+      "5": {
+        "hint": {
+          "en": "Switch 3: Associations nodeid(s)"
+        }
+      },
+      "6": {
+        "hint": {
+          "en": "Switch 4: Associations nodeid(s)"
+        }
+      },
+      "7": {
+        "hint": {
+          "en": "Switch 5: Associations nodeid(s)"
+        }
+      },
+      "8": {
+        "hint": {
+          "en": "Switch 6: Associations nodeid(s)"
+        }
+      }
+    },
+    "multiChannelNodes": {
+      "1": {
+        "class": "socket",
+        "capabilities": [
+          "onoff"
+        ],
+        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+        "name": {
+          "en": "Switch 1"
+        },
+        "settings": []
+      },
+      "2": {
+        "class": "socket",
+        "capabilities": [
+          "onoff"
+        ],
+        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+        "name": {
+          "en": "Switch 2"
+        },
+        "settings": []
+      },
+      "3": {
+        "class": "socket",
+        "capabilities": [
+          "onoff"
+        ],
+        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+        "name": {
+          "en": "Switch 3"
+        },
+        "settings": []
+      },
+      "4": {
+        "class": "socket",
+        "capabilities": [
+          "onoff"
+        ],
+        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+        "name": {
+          "en": "Switch 4"
+        },
+        "settings": []
+      },
+      "5": {
+        "class": "socket",
+        "capabilities": [
+          "onoff"
+        ],
+        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+        "name": {
+          "en": "Switch 5"
+        },
+        "settings": []
+      },
+      "6": {
+        "class": "socket",
+        "capabilities": [
+          "onoff"
+        ],
+        "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+        "name": {
+          "en": "Switch 6"
+        },
+        "settings": []
+      }
+    }
+  }
+}

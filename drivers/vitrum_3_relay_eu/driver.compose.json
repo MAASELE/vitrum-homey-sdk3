@@ -1,0 +1,140 @@
+{
+  "name": {
+    "en": "Vitrum 3 Relay EU"
+  },
+  "class": "light",
+  "capabilities": [],
+  "capabilitiesOptions": {
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "zwave": {
+    "manufacturerId": 266,
+    "productTypeId": [
+      28818
+    ],
+    "productId": [
+      3987
+    ],
+    "learnmode": {
+      "instruction": {
+        "en": "Set the device into Learn Mode by pressing and holding button No.1 (on the left of the device) for longer than 4 seconds. The device will enter into inclusion mode by blinking magenta LED button No.1. Upon successful completion, the device LEDs will blink green three times. Button must be in CC Switch mode, otherwise use the button on the side"
+      }
+    },
+    "unlearnmode": {
+      "instruction": {
+        "en": "Press and hold button No.1 (on the left of the front panel device) for around 6 seconds and after that press 3 times the same button shortly within 3 seconds. LED Button No.1 blinks red upon completing the device exclusion successfully. Button must be in CC Switch mode, otherwise use the button on the side"
+      }
+    },
+    "associationGroups": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "defaultConfiguration": [
+      {
+        "id": 7,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 8,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 9,
+        "size": 1,
+        "value": 3
+      },
+      {
+        "id": 13,
+        "size": 1,
+        "value": 4
+      },
+      {
+        "id": 14,
+        "size": 1,
+        "value": 4
+      },
+      {
+        "id": 15,
+        "size": 1,
+        "value": 4
+      }
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "Reserved"
+        }
+      },
+      "3": {
+        "hint": {
+          "en": "Switch 1: Associations nodeid(s)"
+        }
+      },
+      "4": {
+        "hint": {
+          "en": "Switch 2: Associations nodeid(s)"
+        }
+      },
+      "5": {
+        "hint": {
+          "en": "Switch 3: Associations nodeid(s)"
+        }
+      }
+    },
+    "multiChannelNodes": {
+      "1": {
+        "class": "socket",
+        "capabilities": [
+          "onoff"
+        ],
+        "icon": "/drivers/vitrum_3_relay_eu/assets/icon.svg",
+        "name": {
+          "en": "Switch 1"
+        },
+        "settings": []
+      },
+      "2": {
+        "class": "socket",
+        "capabilities": [
+          "onoff"
+        ],
+        "icon": "/drivers/vitrum_3_relay_eu/assets/icon.svg",
+        "name": {
+          "en": "Switch 2"
+        },
+        "settings": []
+      },
+      "3": {
+        "class": "socket",
+        "capabilities": [
+          "onoff"
+        ],
+        "icon": "/drivers/vitrum_3_relay_eu/assets/icon.svg",
+        "name": {
+          "en": "Switch 3"
+        },
+        "settings": []
+      }
+    }
+  }
+}

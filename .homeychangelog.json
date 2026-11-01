@@ -1,0 +1,113 @@
+{
+  "3.0.1": {
+    "en": "Added some new IDs"
+  },
+  "3.0.2": {
+    "en": "Athom requested fixes"
+  },
+  "3.0.3": {
+    "en": "Changelog and Github repo"
+  },
+  "3.1.0": {
+    "en": "Added a few Vitrum BS switches IDs"
+  },
+  "3.1.1": {
+    "en": "Added a few new IDs for Vitrum BS switches"
+  },
+  "3.1.2": {
+    "en": "Small fixes"
+  },
+  "3.2.0": {
+    "en": "Implemented Vitrum I, II, IV (OnOff/Satellite) British version (BS)"
+  },
+  "3.2.1": {
+    "en": "Fixed missing OnOff RunListener on BS Devices"
+  },
+  "3.2.2": {
+    "en": "reportListener on BS devices "
+  },
+  "3.3.0": {
+    "en": "Solved raised exception due to missing capabilities not being added automatically."
+  },
+  "3.3.1": {
+    "en": "onNodeInit() instead of onInit() in device.js"
+  },
+  "3.4.0": {
+    "en": "Zwave group hints + Default state to off after pairing"
+  },
+  "3.4.1": {
+    "en": "Cleaning up and stability improvements"
+  },
+  "3.5.0": {
+    "en": "Added Vitrum II Roller Shutter"
+  },
+  "3.5.1": {
+    "en": "Small fixes on Roller Shutter"
+  },
+  "3.5.2": {
+    "en": "Various fixes on Roller Shutter switch"
+  },
+  "3.5.3": {
+    "en": "Removed 2nd node from RollerShutter"
+  },
+  "3.5.4": {
+    "en": "Basic reimplementation of roller shutter"
+  },
+  "3.5.5": {
+    "en": "Revert back to basics Roller Shutter"
+  },
+  "3.5.6": {
+    "en": "Small fixes"
+  },
+  "3.5.7": {
+    "en": "registerCapabilityListener missing on curtains"
+  },
+  "3.5.8": {
+    "en": "fixes"
+  },
+  "3.5.9": {
+    "en": "Rewrote registerCapabilityListener for windows covering device"
+  },
+  "3.5.10": {
+    "en": "Added new id for Vitrum IV OnOff BS"
+  },
+  "3.5.11": {
+    "en": "New IDs on Vitrum IV OnOff BS"
+  },
+  "3.5.12": {
+    "en": "Added new ids for Vitrum III EU"
+  },
+  "3.5.13": {
+    "en": "Added Vitrum VI Triac IDs"
+  },
+  "3.5.14": {
+    "en": "Added new IDs for Vitrum I"
+  },
+  "3.5.15": {
+    "en": "New Vitrum 1 ID"
+  },
+  "3.5.16": {
+    "en": "Various IDs on all Devices"
+  },
+  "3.5.17": {
+    "en": "Fixed Vitrum6 pairing"
+  },
+  "3.6.0": {
+    "en": "Added Vitrum 4 Triac EU"
+  },
+  "4.0.0": {
+    "en": "Added Vitrum IV Triac EU"
+  },
+  "4.0.1": {
+    "en": "Added support for Vitrum IV Triac EU"
+  },
+  "4.0.3": {
+    "en": "Small Manifest glitches"
+  },
+  "4.0.5": {
+    "en": "fix associations on 4 btn devices"
+  },
+  "4.0.6": {
+    "en": "Update SDK v3 tooling and Z-Wave dependencies for Homey 12.9.0+, remove unused native dependency, and fix the four-button Triac scene card. Preserve fork-specific device ID."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": {
+    "en": "Vitrum II EU Rolldown Shutters and Curtains"
+  },
+  "class": "windowcoverings",
+  "capabilities": [
+    "windowcoverings_state",
+    "dim"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "zwave": {
+    "manufacturerId": 266,
+    "productTypeId": [
+      4865
+    ],
+    "productId": [
+      23041
+    ],
+    "zwaveAllianceProductId": 2100,
+    "learnmode": {
+      "instruction": { "en": "Press top button to include. Hold the left button for 8 seconds to exclude" }
+    },
+    "associationGroups": [
+      3
+    ],
+    "associationGroupsOptions": {
+      "3": {
+        "hint": { "en": "Switch Associations nodeid(s)" }
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "name": {
+    "en": "Vitrum 2 On/Off EU"
+  },
+  "class": "light",
+  "capabilities": [],
+  "capabilitiesOptions": {
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "zwave": {
+        "manufacturerId": 266,
+        "productTypeId": [ 4608, 4609, 5120, 12800, 16896, 28806, 8704, 9216, 28949, 28678, 28950 ],
+        "productId": [ 20992, 20993, 25088, 37376, 3975, 37376, 41472, 4118, 3847, 4119 ],
+        "learnmode": {
+          "instruction": { "en": "Press top button to include. Hold the left button for 8 seconds to exclude" }
+        },
+        "defaultConfiguration": [
+          {
+            "id": 7,
+            "size": 1,
+            "value": 3
+          },
+          {
+            "id": 8,
+            "size": 1,
+            "value": 3
+          },
+          {
+            "id": 13,
+            "size": 1,
+            "value": 4
+          },
+          {
+            "id": 14,
+            "size": 1,
+            "value": 4
+          }
+        ],
+        "associationGroupsMultiChannel": [ 1 ],
+        "associationGroups": [
+          2,
+          3,
+          4
+        ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "Lifeline report\r\nAdd Controller Node ID to the list of Node ID destinations belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report and  Device Reset Locally Notification reports.\r\n\r\nLifeline report with End Point information\r\nAdd both Controller Node ID and Controller End Point to the list of End Points belonging to the Lifeline Group, in order to let the controller receive Central Scene Notification report with the End Point source address information. That may be achieved by sending the Multichannel Association Set Command Class and filling “Multi Channel Node ID” field with the Controller Node ID and “End Point” field with the Controller End Point."
+            }
+          },
+          "2": {
+            "hint": { "en": "Reserved" }
+          },
+          "3": {
+            "hint": { "en": "Switch 1: Associations nodeid(s)" }
+          },
+          "4": {
+            "hint": { "en": "Switch 2: Associations nodeid(s)" }
+          }
+        },
+        "multiChannelNodes": {
+          "1": {
+            "class": "socket",
+            "capabilities": ["onoff"],
+            "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
+            "name": { "en": "Switch 1" },
+            "settings": []
+          },
+          "2": {
+            "class": "socket",
+            "capabilities": ["onoff"],
+            "icon": "/drivers/vitrum_1_onoff_eu/assets/icon.svg",
+            "name": { "en": "Switch 2" },
+            "settings": []
+          }
+        }
+      }
+}

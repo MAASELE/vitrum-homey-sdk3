@@ -1,0 +1,56 @@
+{
+	"triggers": [
+		{
+			"id": "vitrum1_scene",
+			"title": {
+				"en": "Scene activation mode"
+			},
+			"titleFormatted": {
+				"en": "Card is triggered when [[button]] button is [[scene]]"
+			},
+			"hint": {
+				"en": "This flow card will only trigger if the button setting is in \"Central Scene Mode\"."
+			},
+			"args": [
+				{
+					"name": "button",
+					"type": "dropdown",
+					"values": [
+						{
+							"id": "1",
+							"label": {
+								"en": "Middle"
+							}
+						}
+					]
+				},
+				{
+					"name": "scene",
+					"type": "dropdown",
+					"values": [
+						{
+							"id": "Key Pressed 1 time",
+							"label": {
+								"en": "Pressed"
+							}
+						},
+						{
+							"id": "Key Held Down",
+							"label": {
+								"en": "Held (> 2s)"
+							}
+						},
+						{
+							"id": "Key Released",
+							"label": {
+								"en": "Released"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"conditions": [],
+	"actions": []
+}
