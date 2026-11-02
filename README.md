@@ -1,6 +1,6 @@
 # Vitrum for Homey Pro — SDK v3 update
 
-Version **4.0.6**, based on [bypo/com.vitrum.v3](https://github.com/bypo/com.vitrum.v3)
+Version **4.0.7**, based on [bypo/com.vitrum.v3](https://github.com/bypo/com.vitrum.v3)
 (upstream 4.0.5, commit `49448663c7e50a5ef27faf56fbbe551729e4e8c6`),
 with the additional device ID from MAASELE's original fork (`f0cf52d`).
 Original authorship and GPL license are retained; see [LICENSE](LICENSE).
@@ -63,6 +63,35 @@ product type ID and product ID using [Homey's Z-Wave tools](https://tools.develo
 Include those IDs, model code, Homey firmware and symptoms in an issue. Several
 inherited fingerprints overlap across drivers, so exact IDs are needed before
 changing matching rules.
+
+## Mixed panel: two switches and one shutter
+
+For the confirmed panel with manufacturer **266**, product type **17408** and
+product **25600**, enable **Two switches and shutter buttons** in the main
+panel's advanced settings after updating the app. Existing pairing and all
+four child devices remain in place; no exclusion/re-inclusion is needed.
+
+The main panel gains **Raise shutter** and **Lower shutter** buttons:
+
+- Raise sends the confirmed Switch 2 On command.
+- Lower sends the confirmed Switch 4 On command.
+- Switches 1 and 3 remain ordinary controls.
+
+The buttons send one directional command per press. Initialization and changing
+this setting send no movement commands. The setting is off by default and is
+restricted to the confirmed model above.
+
+On this installation, turning a direction switch Off reverses movement. Off
+must therefore not be used as Stop. Pressing the same physical button again
+stops the shutter, but the equivalent radio command still needs confirmation.
+A Stop control and position percentage are not exposed. Check whether pressing
+the same new Homey button twice also stops movement and report the result.
+
+## Changes in 4.0.7
+
+- Add optional stateless Raise/Lower controls for the confirmed mixed panel.
+- Preserve existing child devices, switches, settings and Z-Wave fingerprints.
+- Never use Off as a stop command or claim unmeasured shutter position.
 
 ## Changes in 4.0.6
 

@@ -109,5 +109,8 @@
   },
   "4.0.6": {
     "en": "Update SDK v3 tooling and Z-Wave dependencies for Homey 12.9.0+, remove unused native dependency, and fix the four-button Triac scene card. Preserve fork-specific device ID."
+  },
+  "4.0.7": {
+    "en": "Add optional Raise and Lower buttons for the confirmed mixed four-button panel. Preserve existing switches and pairing; never use Off as Stop."
   }
 }

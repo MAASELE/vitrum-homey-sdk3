@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.vitrum.v3",
-  "version": "4.0.6",
+  "version": "4.0.7",
   "brandColor": "#FF0000",
   "compatibility": ">=12.9.0",
   "sdk": 3,
@@ -6013,6 +6013,19 @@
       },
       "id": "vitrum_4_onoff_eu",
       "settings": [
+        {
+          "id": "mixed_shutter_layout",
+          "type": "checkbox",
+          "label": {
+            "en": "Two switches and shutter buttons",
+            "it": "Due interruttori e pulsanti tapparella"
+          },
+          "hint": {
+            "en": "Adds Raise and Lower controls to the main panel. Buttons 1 and 3 remain switches; buttons 2 and 4 raise and lower the shutter. Only for model 266/17408/25600. Stop is not available.",
+            "it": "Aggiunge Alza e Abbassa al pannello principale. I pulsanti 1 e 3 restano interruttori; 2 e 4 alzano e abbassano la tapparella. Solo per il modello 266/17408/25600. Arresto non disponibile."
+          },
+          "value": false
+        },
         {
           "id": "off_btn_1_color",
           "type": "dropdown",

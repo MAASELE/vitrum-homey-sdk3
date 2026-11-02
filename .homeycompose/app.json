@@ -1,6 +1,6 @@
 {
   "id": "com.vitrum.v3",
-  "version": "4.0.6",
+  "version": "4.0.7",
   "brandColor": "#FF0000",
   "compatibility": ">=12.9.0",
   "sdk": 3,
