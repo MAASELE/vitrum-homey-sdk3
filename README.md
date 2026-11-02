@@ -24,7 +24,7 @@ npm ci
 npm run validate
 npx homey login
 npx homey select
-npx homey app install
+npm run homey:install
 ```
 
 In the Homey mobile app, open **Devices → Add device → Vitrum v3** and select
@@ -34,6 +34,21 @@ manual. Do not guess inclusion button sequences from other models.
 
 This project retains app ID `com.vitrum.v3`; installing it replaces an existing
 installation with that ID. It is a development build, not an App Store release.
+
+### Upload error: Parameter app is required
+
+Use `npm run homey:install` in place of the plain `homey app install` command.
+It uses the local CLI and performs an authenticated, read-only session request
+immediately before uploading, preserving settings (`clean: false`).
+
+A matching failure was reproduced in homey-api 3.21.2: an expired session makes
+the first upload return HTTP 401; the automatic retry sends JSON instead of
+multipart data, and Homey reports that the app field is missing. The helper
+refreshes the session before creating that upload. The workaround is covered by
+mocked transport tests, but has not been verified against this physical Homey.
+
+If authentication fails, run the local CLI login and select commands above,
+then try `npm run homey:install` again. No device removal or re-pairing is needed.
 
 ## Included drivers
 

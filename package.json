@@ -5,7 +5,8 @@
   "scripts": {
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
     "validate": "homey app validate",
-    "test": "node --test"
+    "test": "node --test",
+    "homey:install": "node scripts/install-homey.cjs"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.6",
